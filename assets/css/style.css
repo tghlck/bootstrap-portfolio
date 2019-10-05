@@ -1,8 +1,7 @@
 
 .header.navbar {
-   
-    border-bottom: 4px solid #4aaaa5;
-    
+  border-bottom: 4px solid #4aaaa5;
+
 }
 .footer.navbar {
     padding-top: .5px;
@@ -10,17 +9,19 @@
     background-color: #666666;
     color: #ffffff;
     border-top: 4px solid #4aaaa5;
-    position: fixed;
- 
   }
   
 .navbar-brand span {
     font-weight: 100;
-    font-size: small;
+    font-size: x-small;
 }
 
-body {
+.header.navbar span {
+    font-weight: bold;
+    margin-left: 5%;
+    
+}
 
-    margin: 0px;
-  }
-  
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 5%;
+
