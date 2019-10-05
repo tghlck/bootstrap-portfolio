@@ -1,55 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
-  
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap Portfolio</title>
+
+  <!-- Bootstrap CDN -->
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-  <title>Adam Toomey | About Me</title>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+  <!-- Start Nav -->
+  <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand" >Adam Toomey</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About </a> 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#">Portfolio </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Contact </a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+
     </div>
   </nav>
 
+  <div class="row">
+      <div class="col-sm-12 pt-5 px-auto py-auto">
+          <div class="container">
+              <div class="card border-0 my-4">
+                  <div class="row">
+                      <div class="col-lg-3">
+                          <img src="assets/imgs/headshot.jpg" class="img-thumbnail">
+                      </div>
+                      <div class="container col-lg-9">
+                          <div class="card-body">
+                              <h2 class="text-info">About Me</h2>
+                              <p class="cart-text  p-auto">
+                                  My name is Adam Toomey, I was born and raised in New Hampshire. I grew up in Northern New Hampshire, went to
+                                  school at Plymouth State University where I studied Graphic Design and Printmaking. I now live in the seacoast
+                                  area, where I work as a production coordinator at a promotional marketing company.
+                                <br>
+                                <br>
+                              I love playing music and going to shows. I play guitar and am a total gear-head, because pedals are fun of
+                                  course. Going to see live shows are one of my favorite things to do, I started playing in a metal band in
+                                  highschool and ever since I've been in love with seeing bands preform live. Some of my favorite bands I've seen
+                                  live were,
+                                  Fury, Title Fight, Stevie Nicks, Dinosaur Jr., Cloakroom, Ekulu, and Illusion.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <footer class="footer navbar fixed-bottom navbar-dark bg-dark">
+      <a class="navbar-brand ml-auto mr-auto p-0" href="#"><span>&copy; Adam Toomey | 2019</span></a>
+  </footer>
+  </div>
+    
 
 </body>
 
