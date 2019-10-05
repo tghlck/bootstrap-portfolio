@@ -1,6 +1,7 @@
 
 .header.navbar {
   border-bottom: 4px solid #4aaaa5;
+  width: 100% !important;
 
 }
 .footer.navbar {
@@ -9,6 +10,7 @@
     background-color: #666666;
     color: #ffffff;
     border-top: 4px solid #4aaaa5;
+    margin-top: 10px;
   }
   
 .navbar-brand span {
