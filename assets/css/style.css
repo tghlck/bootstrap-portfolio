@@ -25,3 +25,7 @@
 .navbar-expand-lg .navbar-collapse {
     margin-right: 5%;
 
+}
+.card-deck .card{ 
+    margin-bottom: 5px;
+  }
